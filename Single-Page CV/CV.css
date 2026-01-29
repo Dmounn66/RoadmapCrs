@@ -9,8 +9,8 @@ body {
     border: none;
     height: 2px;
     background-color: black;
-    margin:70px 0px 40px 0px; /* Atur sesuai kebutuhan */
-    width: 50%; /* Pastikan memanjang penuh */
+    margin:40px 0px 40px 0px; 
+    width: 50%; 
 }
 /* nama */
 h1 {
@@ -74,4 +74,50 @@ h1 {
 .education .school p {
     font-size: 16px;
     margin: 0;
+}
+
+.education .datelong {
+    font-style: italic;
+    font-size: 10px;
+    margin-bottom: 5px;
+}
+
+/* experience */
+.experience {
+    margin-bottom: 30px;
+    margin-top: 25px;
+}
+
+.experience h3 {
+    color: rgb(0, 29, 156);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.experience .job h3{
+    color: rgb(0, 0, 0);
+    margin-bottom: 15px;
+}
+
+.experience .datelong {
+    font-style: italic;
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: blue;
+}
+
+/* soscmed */
+.soscmed {
+    margin-bottom: 30px;
+    margin-top: 25px;
+}
+
+
+.cv-linebot {
+    border: none;
+    height: 2px;
+    background-color: rgb(194, 194, 194);
+    margin:40px 0px 40px 0px; 
+    width: 25%; 
 }
