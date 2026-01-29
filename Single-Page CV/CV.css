@@ -2,9 +2,18 @@
     border: none;
     height: 2px;
     background-color: black;
-    margin: 30px 0; /* Atur sesuai kebutuhan */
+    margin:70px 0px 40px 0px; /* Atur sesuai kebutuhan */
     width: 50%; /* Pastikan memanjang penuh */
 }
 h1 {
-     color: burlywood;
+     color: rgb(0, 0, 0);
+     font-family:"times new roman", times, serif;
+     font-size: 40px;
+     margin-bottom: 0%;
+}
+.title {
+    color: rgb(0, 29, 156);
+    font-family: "arial", sans-serif;
+    font-size: 15px;
+    margin: 0px 0px 30px;
 }
