@@ -1,3 +1,10 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 20px;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+/* garis atas */
 .cv-linetop {
     border: none;
     height: 2px;
@@ -5,15 +12,66 @@
     margin:70px 0px 40px 0px; /* Atur sesuai kebutuhan */
     width: 50%; /* Pastikan memanjang penuh */
 }
+/* nama */
 h1 {
      color: rgb(0, 0, 0);
      font-family:"times new roman", times, serif;
      font-size: 40px;
      margin-bottom: 0%;
 }
+/* title */
 .title {
     color: rgb(0, 29, 156);
     font-family: "arial", sans-serif;
     font-size: 15px;
     margin: 0px 0px 30px;
+}
+/* info */
+.contact-info p {
+    margin: 0;
+}
+
+.contact-info {
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* skill */
+.skill {
+    margin-bottom: 30px;
+    margin-top: 25px;
+}
+.skill h3 {
+    color: rgb(0, 29, 156);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.skill p {
+    font-size: 14px;
+    margin: 0;
+}
+
+/* education */
+.education {
+    margin-bottom: 30px;
+    margin-top: 25px;
+}
+
+.education h3 {
+    color: rgb(0, 29, 156);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.education .school {
+    color: rgb(0, 0, 0);
+    margin-bottom: 15px;
+}
+
+.education .school p {
+    font-size: 16px;
+    margin: 0;
 }
