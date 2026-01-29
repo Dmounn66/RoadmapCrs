@@ -1,0 +1,10 @@
+.cv-linetop {
+    border: none;
+    height: 2px;
+    background-color: black;
+    margin: 30px 0; /* Atur sesuai kebutuhan */
+    width: 50%; /* Pastikan memanjang penuh */
+}
+h1 {
+     color: burlywood;
+}
