@@ -92,12 +92,12 @@ main {
   gap: 2rem;
 }
 
-.hero {
+.name {
   text-align: center;
 }
 
 /* sections */
-.hero,
+.name,
 .projects,
 .work-experience,
 .education {
@@ -128,3 +128,29 @@ main {
   padding-left: 2rem;
 }
 
+.feedback-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+blockquote {
+  border: 1px solid var(--accent-color);
+  padding: 1rem;
+  border-radius: 5px;
+  margin: 1rem 0;
+  width: 100%;
+  text-align: center;
+}
+
+/* footer */
+footer {
+  text-align: center;
+  padding:1rem;
+  border-top: 1px solid var(--border-color);
+}
+
+/* contact */
+form {
+  
+}
