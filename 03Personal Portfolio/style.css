@@ -164,9 +164,29 @@ label {
 }
 
 input, 
-texturea {
+textarea {
   padding: 0.75rem;
   border: 1px solid var(--border-color);
-  border: 
+  border-radius: 5px;
+  font-size: 1rem;
+  background-color: var(--background-color);
+  color: var(--text-color);
 }
 
+input:focus,
+textarea:focus {
+  outline: none;
+  border-color: var(--accent-color);
+  box-shadow: 0 0 0 2px var(--accent-color);
+}
+
+button {
+  padding: 6px 12px;
+  background-color: var(--accent-color);
+  color: var(--background-color);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 13px;
+  transition: background-color 0.3 ease
+}
