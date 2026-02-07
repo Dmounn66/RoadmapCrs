@@ -152,5 +152,21 @@ footer {
 
 /* contact */
 form {
-  
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
 }
+
+label {
+  font-weight: bold;
+  font-size: 1rem;
+  color: var(--text-color);
+}
+
+input, 
+texturea {
+  padding: 0.75rem;
+  border: 1px solid var(--border-color);
+  border: 
+}
+
