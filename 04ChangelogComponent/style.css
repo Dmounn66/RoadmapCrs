@@ -85,3 +85,9 @@ body {
      color: var(--text-accent-color);
 }
 
+.timeline-item .timeline-content {
+     font-size:1rem;
+     background-color: var(--background-color);
+     
+}
+
