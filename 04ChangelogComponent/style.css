@@ -94,7 +94,14 @@ body {
      display: inline-block;
 }
 
-.timeline- {
-     
+.timeline-item .timeline-content  {
+     font-size: 1rem;
+     background-color  :var(--background-color);
+     border-radius: 8px;
+     padding: 10px;
+     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+     display: inline-block;
 }
+
+
 
