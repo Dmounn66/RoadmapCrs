@@ -12,3 +12,28 @@
      justify-content: center;
      align-items: center;
 }
+
+.main-content {
+     border: 3px solid black;
+     border-radius: 15px;
+     height: 70%;
+     width: 33%;
+     box-shadow: 5px 10px 15px black;
+}
+
+h1 {
+     text-align: center;
+     margin-top: 20px;
+     font-size: 30px;
+     color: rgb(22, 22, 22);
+}
+.title-head {
+     text-align: center;
+     margin-top: 2px;
+     font-size: 15px;
+     color: rgb(22, 22, 22);
+}
+
+.light {
+     color: rgb(158, 158, 158);
+}
