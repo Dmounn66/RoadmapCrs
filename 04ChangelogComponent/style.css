@@ -17,7 +17,7 @@
      border: 3px solid black;
      border-radius: 15px;
      height: 70%;
-     width: 33%;
+     width: 30%;
      box-shadow: 5px 10px 15px black;
 }
 
@@ -27,13 +27,25 @@ h1 {
      font-size: 30px;
      color: rgb(22, 22, 22);
 }
-.title-head {
+
+.center {
      text-align: center;
-     margin-top: 2px;
-     font-size: 15px;
-     color: rgb(22, 22, 22);
 }
 
 .light {
      color: rgb(158, 158, 158);
+}
+
+.dark {
+     color: rgb(0, 0, 0)
+}
+.sub {
+     margin-bottom: 50px 10px;
+}
+#line{
+    margin-top: 20px;
+}
+
+.left {
+     
 }
